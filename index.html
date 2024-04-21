@@ -7,30 +7,44 @@
   <title> Robot Diary </title>
   <link rel="stylesheet" href="estilos/LAB.css">
   <link rel="stylesheet" href="estilos/reset.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
   <style>
     body {
       background-color: #9B59B6; /* Purple background color */
-      font-family: 'Press Start 2P', cursive;
+      font-family: 'Roboto', sans-serif; /* Professional font */
+      margin: 0; /* Remove default body margin for better centering */
     }
-    .logo {
-      content: url('robot-logo.png');
+    header {
+      text-align: center; /* Center header content */
+    }
+    .lab {
+      margin: 50px auto; /* Add margin for better separation */
+      max-width: 800px; /* Set a maximum width for the content area */
+      padding: 20px; /* Add padding for better spacing */
+    }
+    .lab h2,
+    .lab h3,
+    .lab h4,
+    .lab p {
+      text-align: center; /* Center all text within the .lab section */
+    }
+    .lab img {
+      margin: 10px auto; /* Add margin for images */
+      display: block; /* Make images behave like block elements for better centering */
     }
   </style>
 </head>
 <body>
   <header>
     <div>
-      <ul>
-        <img id="id__logo" class="logo" alt="Robot Logo" width="150px" height="100px">
-      </ul>
+      <img id="id__logo" class="logo" alt="Robot Logo" width="150px" height="100px">
     </div>
   </header>
   <section class="lab">
-    <h2 class="titulo_lab"> Robotic Education </h2>
-    <h3 class="intro"> Robot Diary </h3>
-    <h4 class="subtitulo_lab">‍ Students: Randre Cardoso, Luisa Pataquini, Julia Pessoa, and Lincoln Satoru ‍</h4>
+    <h2> Robotic Education </h2>
+    <h3> Robot Diary </h3>
+    <h4 class="subtitulo_lab"> Students: Randre Cardoso, Luisa Pataquini, Julia Pessoa, and Lincoln Satoru </h4>
     <h4 class="subtitulo_lab"> Project 1 - Game, Lights, and Sounds </h4>
     <p class="texto_padrao">The images below show a bit of the process of building the Michelangelo project:</p>
     <img src="michel1.jpeg" alt="Michel" width="525px" height="500px">
