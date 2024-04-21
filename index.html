@@ -11,7 +11,7 @@
 
   <style>
     body {
-      background-color: #e6d9f5; /* Lighter purple background color */
+      background-color: #dcedf0; /* Very light green background color */
       font-family: 'Roboto', sans-serif; /* Professional font */
       margin: 0; /* Remove default body margin for better centering */
     }
@@ -33,6 +33,11 @@
       margin: 10px auto; /* Add margin for images */
       display: block; /* Make images behave like block elements for better centering */
       border: 5px solid #ddd; /* Add a solid border to images */
+      width: 40%;  /* Set image width to 40% for two images side-by-side */
+      float: left;  /* Make images float left for side-by-side positioning */
+    }
+    .lab .lab img:nth-child(odd) {  /* Clear floats for new row after every odd image */
+      clear: left;
     }
     .lab h4.subtitulo_lab {
       margin-bottom: 20px; /* Add space below project titles */
@@ -55,7 +60,6 @@
     <p class="texto_padrao">The images below show a bit of the process of building the Michelangelo project:</p>
     <img src="michel1.jpeg" alt="Michel" width="525px" height="500px">
     <img src="michel2.jpeg" alt="Michel" width="525px" height="500px">
-    <img src="michel3.jpeg" alt="Michel" width="525px" height="500px">
     <h4 class="subtitulo_lab"> Project 2 - Crazy Race </h4>
     <p class="texto_padrao">The images below are records of building the SertãoBots project:</p>
     <img src="corrida1.jpeg" alt="Corrida" width="525px" height="500px">
